@@ -24,12 +24,98 @@
         object-fit: cover;
         position: absolute;
       }
+
+      .image1 {
+        animation: anim1 30s infinite;
+      }
+
+      .image2 {
+        animation: anim2 30s infinite;
+      }
+
+      .image3 {
+        animation: anim3 30s infinite;
+      }
+
+      @keyframes anim1 {
+        0% {
+          opacity: 1;
+        }
+
+        49% {
+          opacity: 1;
+        }
+
+        50% {
+          opacity: 0;
+        }
+
+        100% {
+          opacity: 0;
+        }
+      }
+
+      @keyframes anim2 {
+        0% {
+          opacity: 0;
+        }
+
+        49% {
+          opacity: 0;
+        }
+
+        50% {
+          opacity: 1;
+        }
+
+        74% {
+          opacity: 1;
+        }
+
+        75% {
+          opacity: 0;
+        }
+
+        100% {
+          opacity: 0;
+        }
+      }
+
+      @keyframes anim3 {
+        0% {
+          opacity: 0;
+        }
+
+        74% {
+          opacity: 0;
+        }
+
+        75% {
+          opacity: 1;
+        }
+
+        99% {
+          opacity: 1;
+        }
+
+        100% {
+          opacity: 0;
+        }
+      }
     </style>
   </head>
   <body>
     <img
-      class="image"
+      class="image image1"
       src="https://raw.githubusercontent.com/divae-goes-social/divae-goes-social.github.io/main/image11.png"
+    />
+    <img
+      class="image image2"
+      src="https://raw.githubusercontent.com/divae-goes-social/divae-goes-social.github.io/main/image12.png"
+    />
+    <img
+      class="image image3"
+      src="https://raw.githubusercontent.com/divae-goes-social/divae-goes-social.github.io/main/image13.png"
     />
   </body>
 </html>
