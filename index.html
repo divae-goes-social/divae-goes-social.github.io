@@ -1,5 +1,78 @@
-<html>
-  <body style="margin: 0">
-    <img src="https://cc-ifame.s3.eu-central-1.amazonaws.com/paul.png" style="width: 100vw; height: 100vh; object-fit: cover;">
+<html><head>
+    <style>
+      html {
+        font-size: 24px;
+        background: white;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+          Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue,
+          Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
+          Noto Color Emoji;
+      }
+
+      .image {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        position: absolute;
+      }
+
+      .image1 {
+        animation: anim1 40s infinite;
+      }
+
+      .image2 {
+        animation: anim2 40s infinite;
+      }
+
+      @keyframes anim1 {
+        0% {
+          opacity: 1;
+        }
+
+        49.9999% {
+          opacity: 1;
+        }
+
+        50% {
+          opacity: 0;
+        }
+
+        100% {
+          opacity: 0;
+        }
+      }
+
+      @keyframes anim2 {
+        0% {
+          opacity: 0;
+        }
+
+        49.9999% {
+          opacity: 0;
+        }
+
+        50% {
+          opacity: 1;
+        }
+
+        100% {
+          opacity: 1;
+        }
+      }
+    </style>
+  </head>
   <body>
-<html>
+    <img class="image image1" src="https://cc-ifame.s3.eu-central-1.amazonaws.com/paul.png">
+    <img class="image image2" src="https://cc-ifame.s3.eu-central-1.amazonaws.com/Tierheim.jpeg">
+  
+
+
+</body></html>
